@@ -1,0 +1,19 @@
+.quantity {
+  display: block;
+  font-weight: 500;
+}
+.statsItem {
+  text-align: center;
+  border-top: 1px solid rgb(221, 220, 220);
+  width: calc((100%) / 3);
+  padding: 15px 0 15px 0;
+  line-height: 1.5em;
+
+}
+.statsItem:not(:last-child) {
+  border-right: 1px solid rgb(221, 220, 220);
+}
+.statsItem_label{
+  color: rgb(163, 159, 159);
+font-size: 14px;
+}

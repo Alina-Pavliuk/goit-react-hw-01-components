@@ -1,0 +1,38 @@
+.friendItem {
+  position: relative;
+  display: flex;
+  width: 400px;
+  padding: 15px;
+  justify-content: flex-start; 
+  margin-top: 20px;
+  box-shadow: 3px 2px 3px 2px gray;
+}
+.avatarFriend {
+  margin: 0;
+  width: 100px;
+    border-radius: 10%;
+    margin-left: 40px;
+}
+
+.status {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.onlineTrue {
+  background: green;
+}
+
+.onlineFalse {
+  background: red;
+}
+
+.nameFriend {
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-left: 20px;
+}

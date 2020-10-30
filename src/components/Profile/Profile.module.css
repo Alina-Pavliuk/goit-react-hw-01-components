@@ -1,0 +1,38 @@
+.profile {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: calc((100% - 30px * 2) / 3);
+  border: 1px solid rgb(221, 220, 220);
+  overflow: hidden;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 46px;
+  text-align: center;
+
+
+}
+.avatar {
+  margin: 0 auto;
+  width: 130px;
+  border-radius: 50%;
+}
+.description {
+  text-align: center;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.tag,
+.location {
+  font-size: 16;
+  color: rgb(163, 159, 159);
+}
+.stats {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  background: rgb(228, 245, 253);
+}

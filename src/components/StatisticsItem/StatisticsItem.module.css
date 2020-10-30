@@ -1,0 +1,18 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  height: 100px;
+  background: gray;
+  line-height: 2em;
+}
+
+.label,
+.percentage {
+  color: white;
+}
+
+.percentage {
+  font-size: 26px;
+}
